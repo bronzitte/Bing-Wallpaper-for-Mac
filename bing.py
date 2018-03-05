@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import urllib, urllib2, json, sys
+import urllib.error, urllib.request, json, sys
 from os.path import join, expanduser, isfile, exists
 from os import makedirs
 
@@ -44,7 +44,7 @@ def download_image(url, download_only=False):
     if isfile(file_path):
         print('Skipped - ' + file_name + ' exists already.')
     else:
-        urllib.urlretrieve(url, file_path)
+        urllib.request.urlretrieve(url, file_path)
         print('Image downloaded --> ' + file_path)
 
     if not download_only:
@@ -127,9 +127,9 @@ def main():
             else:
                 download_image(url)
 
-    except urllib2.HTTPError, e:
+    except urllib.error.HTTPError as e:
         print('Error ' + str(e.code) + '. Please try again later...')
-    except urllib2.URLError, e:
+    except urllib.error.URLError as e:
         print('Error. Please check your internet connection...')
 
 
