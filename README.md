@@ -1,6 +1,9 @@
 # Bing Wallpapaer for Mac
 A simple Python script capable of batch-downloading and setting Bing picture of the day as wallpaper on your Mac OS X.
 
+## *From Bronzitte*
+The original version of the script has some python 2 syntax and package dependence. I have made some changes so that it can run at Python 3 environment. 
+
 ## About
 Ever since the switch to Mac, I've kinda been missing [PyBingWallpaper](https://github.com/genzj/pybingwallpaper). So I wrote this script to do pretty much the same thing. 
 
