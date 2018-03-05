@@ -1,5 +1,5 @@
-# *Pre-words from Bronzitte
-The original version of the script has some python 2 syntax and package dependence. I have made some changes so that it can run at Python 3 environment. *
+# *Pre-words from Bronzitte*
+*The original version of the script has some python 2 syntax and package dependence. I have made some changes so that it can run at Python 3 environment.*
 
 
 # Bing Wallpapaer for Mac
