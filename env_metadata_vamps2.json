@@ -1,4 +1,5 @@
-var biome_seq_options = {
+{
+"biome_seq_options" : {
   "marine biome": ["none",
     "abyssal zone",
     "bathyal",
@@ -29,13 +30,13 @@ var biome_seq_options = {
     "terrestrial aquatic",
     "tropical",
     "tundra"]
-};
+},
 
-var feature_seq_options = {
+"feature_seq_options" : {
   "well": ["none",
     "oil well",
     "water well",
-		"undefined"],
+    "undefined"],
 
   "aquifer": ["none",
     "confined",
@@ -170,10 +171,10 @@ var feature_seq_options = {
     "subsurface",
     "unconfined",
     "undefined"]
-};
+},
 
 
-var material_seq_options = {
+"material_seq_options" : {
   "sediment": ["none",
     "anaerobic",
     "biogenous",
@@ -298,10 +299,10 @@ var material_seq_options = {
     "quartz",
     "sea",
     "undefined"]
-};
+},
 
-var env_package = {
-  ["air",
+"env_package" : {
+  "test":["air",
   "extreme habitat",
   "host associated",
   "human associated",
@@ -324,4 +325,5 @@ var env_package = {
   "water-marine",
   "built environment",
   "water"]
+}
 }
