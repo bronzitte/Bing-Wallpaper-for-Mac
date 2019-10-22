@@ -1,42 +1,69 @@
-{
-"biome_seq_options" : {
-  "marine biome": ["none",
-    "abyssal zone",
-    "bathyal",
-    "benthic",
-    "continental margin",
-    "endolithic",
-    "estuarine",
-    "hadal zone",
-    "marine aquatic",
-    "neritic zone",
-    "pelagic",
-    "polar",
-    "subseafloor aquatic",
-    "subseafloor"
-  ],
+{ 
+  "name" : "vamps features",
+  "children": [
+    {"name": "env_biome",
+      "children" : [
+        {"name" : "marine biome",
+          "children": [
+            {"name" : "none"},
+            {"name" : "abyssal zone"},
+            {"name" : "bathyal"},
+            {"name" : "benthic"},
+            {"name" : "continental margin"},
+            {"name" : "endolithic"},
+            {"name" : "estuarine"},
+            {"name" : "hadal zone"},
+            {"name" : "marine aquatic"},
+            {"name" : "neritic zone"},
+            {"name" : "pelagic"},
+            {"name" : "polar"},
+            {"name" : "subseafloor aquatic"},
+            {"name" : "subseafloor"}
+          ]
+      },
+        {"name" : "terrestrial biome",
+        "children": [
+          {"name" : "none"},
+          {"name" : "desert"},
+          {"name" : "endolithic"},
+          {"forest"},
+          {"name" : "grassland"},
+          {"name" : "montane"},
+          {"name" : "permafrost"},
+          {"name" : "polar"},
+          {"name" : "subterrestrial aquatic"},
+          {"name" : "subterrestrial"},
+          {"name" : "temperate"},
+          {"name" : "terrestrial aquatic"},
+          {"name" : "tropical"},
+          {"name" : "tundra"}]
+      }
+    ]
+    },
+    {"name" : "env_feature",
+      "children" :[
+        {"name" : "well",
+        "children" :[
+          {"name" : "none"},
+          {"name" : "oil well"},
+          {"name" : "water well"},
+          {"name" : "undefined"}
+        ]}
+      ]
 
-  "terrestrial biome": ["none",
-    "desert",
-    "endolithic",
-    "forest",
-    "grassland",
-    "montane",
-    "permafrost",
-    "polar",
-    "subterrestrial aquatic",
-    "subterrestrial",
-    "temperate",
-    "terrestrial aquatic",
-    "tropical",
-    "tundra"]
-},
+    }
+    
+
+
+
+  ]
+
 
 "feature_seq_options" : {
-  "well": ["none",
-    "oil well",
-    "water well",
-    "undefined"],
+  : [,
+    ,
+    ,
+    ],
 
   "aquifer": ["none",
     "confined",
